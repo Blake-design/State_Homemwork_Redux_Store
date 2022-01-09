@@ -14,6 +14,7 @@ function ProductList() {
   const state = useSelector((state) => {
     return state;
   });
+  console.log(state);
 
   const dispatch = useDispatch();
 
