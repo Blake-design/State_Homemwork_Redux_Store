@@ -14,7 +14,7 @@ function ProductItem(item) {
   });
 
   const dispatch = useDispatch();
-
+  console.log(item);
   const { image, name, _id, price, quantity } = item;
 
   const { cart } = state;

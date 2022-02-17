@@ -24,7 +24,7 @@ export const reducer = (state = defaultState, action) => {
     case UPDATE_PRODUCTS:
       return {
         ...state,
-        products: [...state.products, action.products],
+        products: [...action.products],
       };
 
     case ADD_TO_CART:
